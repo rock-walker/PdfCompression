@@ -18,8 +18,8 @@ namespace PdfCompressorLibrary
         /// <summary>
         /// Here the parameter you worth to play with:
         /// Accepted values are: [0.01, ..., 0.99]
-        /// The value closer to Zero - more compression, less quality
-        /// The value closer to One - less compression, more quality
+        /// The value closer to Zero - higher compression, lower quality
+        /// The value closer to One - lower compression, higher quality
         /// </summary>
         private static float compressionLevel = 0.37f;  
 
